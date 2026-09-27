@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{name}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{url}}">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{name}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{url}}">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231f5f5b'/><path d='M22 32 L44 50 L22 68 M52 70 H76' stroke='%23fbfbfa' stroke-width='11' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>{{name}}</h1>
+<p>{{tagline}}<br>
+{{links}}</p>{{bio}}
+
+<h2>Projects</h2>
+<ul>
+{{projects}}
+</ul>
+<p><small><a href="{{repos_url}}">All repositories on GitHub</a></small></p>
+
+<h2>Open source</h2>
+{{oss}}
+
+<h2>Experience</h2>
+<ul>
+{{experience}}
+</ul>
+
+<h2>Education</h2>
+<ul>
+{{education}}
+</ul>
+
+<p><small><a href="{{source_url}}">Source</a></small></p>
+
+</body>
+</html>
